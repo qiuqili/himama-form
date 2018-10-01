@@ -15,97 +15,102 @@
   <div class="container">
     <div class="formcontainer">
       <h2>Create your child’s profile and we’ll send it over to your daycare, along with an invitation for them to try HiMama
-        for free!</h2>
-      <form>
+        for free!
+      </h2>
+      <form action="success.html">
         <div class="title">
           <div>
             <img src="img/boy.png" alt="boyimg">
+            <img src="img/boycolor.png" alt="boycolor">
           </div>
-          <h3>we just need a few things from you...</h3>
+          <h3>We just need a few things from you...</h3>
         </div>
 
         <div class="field">
           <div class="group">
             <input type="text" id="myinput" name="user_name" required>
-            <label><span>*</span>Yor Name:</label>
+            <label>
+              Yor Name:</label>
           </div>
 
           <div class="group">
             <input type="email" placeholder="xxx@example.com" name="user_email" required>
-            <label><span>*</span>Yor Email:</label>
+            <label>Yor Email:</label>
           </div>
 
           <div class="group">
             <input type="text" name="child_name" required>
-            <label><span>*</span>Yor Child's Name:</label>
+            <label>Yor Child's Name:</label>
           </div>
 
-          <div class="group">
+          <div>
             <label>Add your child's photo! (optional)</label>
-            <input type="file" name="child_photo" required>
+            <input type="file" name="child_photo">
           </div>
         </div>
 
         <div class="title">
           <div>
             <img src="img/house.png" alt="houseimg">
+            <img src="img/housecolor.png" alt="housecolor">
           </div>
           <h3>Daycare information</h3>
         </div>
 
         <div class="field">
           <div class="group">
-            <input type="text" name="daycare_name " required>
-            <label><span>*</span>Name of Daycare:</label>
+            <input type="text" name="daycare_name" required>
+            <label>Name of Daycare:</label>
           </div>
+
 
           <div class="group">
             <input type="email" name="daycare_email" placeholder="xxx@example.com" required>
-            <label><span>*</span>Daycare Email:</label>
+            <label>Daycare Email:</label>
           </div>
 
           <div class="group">
             <input type="text" name="daycare_contact" placeholder="First name" required>
-            <label><span>*</span>Contact at Daycare:</label>
-            <div class="radio ">
-              <input type="radio" name="teacher" value="teacher"><label>Teacher</label>
-              <input type="radio" name="director" value="director"><label>Director</label>
+            <label>Contact at Daycare:</label>
+            <div class="radio">
+              <input type="radio" name="teacher" value="teacher">
+              <label>Teacher</label>
+              <input type="radio" name="director" value="director">
+              <label>Director</label>
             </div>
           </div>
 
+
           <div class="group">
             <input type="tel" name="phone_number" placeholder="cell phone preferred" required>
-            <label for="name "><span>*</span>Contact Phone:</label>
+            <label for="name">Contact Phone:</label>
             <div class="radio">
-              <input type="radio" name="cell" value="cell"><label>Cell</label>
-              <input type="radio" name="daycare" value="daycare"><label>Daycare</label>
+              <input type="radio" name="cell" value="cell">
+              <label>Cell</label>
+              <input type="radio" name="daycare" value="daycare">
+              <label>Daycare</label>
             </div>
           </div>
         </div>
 
-        <button type="submit" value="Submit">submit</button>
+        <button type="submit" value="submit">submit</button>
       </form>
     </div>
 
-    <div class="howWork ">
+    <div class="howWork">
       <div>
         <h1>Use the web and apps to record and share moments.</h1>
-        <img src="img/photo.png " alt="photoimg">
+        <img src="img/phone.png" alt="phoneimg">
       </div>
-      <h3>Capture and share your child's development from your computer at home or your smartphone on the go. Have your child
-        care center do the same.</h3>
-      <h2>Easily capture memorable moments.</h2>
-      <h2>Instantly share your updates or keep them private.</h2>
-      <h2>Show off your pictures with an automatic journal you can view anytime, anywhere.</h2>
+      <h2>Capture and share your child's development from your computer at home or your smartphone on the go. Have your child
+        care center do the same.</h2>
+      <p>Easily capture memorable moments.</p>
+      <p>Instantly share your updates or keep them private.</p>
+      <p>Show off your pictures with an automatic journal you can view anytime, anywhere.</p>
     </div>
 
   </div>
   <script src="scripts.js"></script>
 </body>
-
-
-
-
-
 
 </html>
